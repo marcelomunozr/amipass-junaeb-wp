@@ -1,0 +1,152 @@
+/* MAPA */
+h2 {
+  font-size: 40px;
+}
+.mapa {
+  background:  white;
+  padding-top: 85px;
+  color:  #333333;
+}
+.overlay {
+   background:transparent !important;
+
+}
+/* .overlay {
+   background:transparent; 
+   position:relative; 
+   width:640px;
+   height:715px; 
+   top:715px;  
+   margin-top:-715px; 
+} */
+#LoginModal {
+  color: #AAA;
+}
+#LoginModal .modal-body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#LoginModal .modal-body h2 {
+  font-size: 30px;
+}
+.mapa p {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: Gotham-Light,Montserrat,sans-serif;
+  margin-bottom: 60px;
+}
+.el-mapa {
+  background:  url('../img/mapa.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 715px;
+  margin-top: 40px;
+}
+.mapa .form-control, .mapa .btn-default {
+  border: none;
+  font-family: Gotham-Light,Montserrat,sans-serif;
+  border-radius: 0px;
+  color:  #333;
+  box-shadow: none;
+  border-bottom: solid 1px #aacf7d;
+  margin-right: 30px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.mapa .form-control:focus,
+.mapa .form-control:hover,
+.mapa .form-control:active,
+.mapa .btn-default:hover,
+.mapa .btn-default:focus,
+.mapa .btn-default:active {
+  background:  transparent;
+  border-bottom: solid 1px #00c950;
+  color: black;
+  box-shadow: none;
+}
+.mapa .caret {
+  color: #aacf7d;
+}
+.mapa .btn-success {
+  border-radius: 20px;
+  color:  white;
+  border:  none;
+  background:  #aacf7d;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/* CONTACTO */
+.contacto {
+  background:  url('../img/bg-contacto.jpg') no-repeat fixed center center;
+  background-size: cover;
+  color:  white;
+  padding: 80px 0;
+}
+.contacto p {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: Gotham-Light,Montserrat,sans-serif;
+  margin-bottom: 60px;
+}
+.the-form .form-control {
+  border:  none;
+  color:  white;
+  font-size: 14px;
+  font-family: Gotham-Light,Montserrat,sans-serif;
+  box-shadow: none;
+  border-radius:  0px;
+  background:  transparent;
+  border-bottom:  solid 1px white;
+}
+.the-form .form-control::-webkit-input-placeholder { color: white; }
+.the-form .form-control:-moz-placeholder { color: white; }
+.the-form .form-control::-moz-placeholder { color: white; }
+.the-form .form-control:-ms-input-placeholder { color: white; }
+
+.btn-contact {
+  background:  transparent;
+  font-size: 40px;
+  font-size: 14px;
+  color:  white;
+  border-radius:  20px;
+  border:  solid 3px white;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+footer {
+    font-family: Gotham-Light,Montserrat,sans-serif;
+    font-size: 14px;
+}
+footer h3 {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+footer p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+footer p a {
+  color: white;
+  text-decoration: underline;
+}
+
+.conocela .box-zone .overzone {
+  
+}
+.conocela .box-zone .overzone {
+    background: rgba(255, 181, 0, 0.9) none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    padding: 100px 20px 30px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    transition: all 0.2s ease-in-out 0s;
+    z-index: 2;
+}
